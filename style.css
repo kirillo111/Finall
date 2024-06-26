@@ -1,6 +1,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
 body{
     background: #F2F7FF;
 }
@@ -64,4 +68,81 @@ ul{
 ul{
     padding: 0px;
     margin: 0px;
+}
+.li{
+    margin-right: 0px;
+}
+.ul{
+    margin-left: 0px;
+}
+.book{
+    font-weight: 600 ;
+    font-size: 18px;
+}
+.title{
+    width: 294px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 33px;
+    color: #00BFA5;
+    margin-top: -20px;
+    margin-bottom: 20px;
+
+}
+.subtitle{
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 48px;
+    line-height:  57px;
+    margin-bottom: 20px;
+}
+.untext{
+    font-family: "Sora", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #6C87AE;
+    margin-bottom: 20px;
+
+
+}
+.button2{
+    display: flex;
+    border: solid black 1px;
+    border-radius: 40px;
+    background: linear-gradient(to right,#3A8EF6 , #6F3AFA);
+    align-items: center;
+    width: 288px;
+    height: 56px;
+}
+.button2 a{
+    display: flex;
+}
+.book2{
+    color: white;
+    font-family: "Sora", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22.68px;
+    
+}
+.li2{
+    margin-right: 0px;
+}
+.ul2{
+    margin-left: 0px;
+}
+.f1{
+    width: 678px;
+    height: 512px;
+}
+.MAINLY_TITLE{
+    display: flex;
+   align-items: center;
+   width: 1440px;
+   margin: 0 auto;
+}
+.second_mainly{
+    display: block;
 }
